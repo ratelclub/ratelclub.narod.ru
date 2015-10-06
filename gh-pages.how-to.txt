@@ -1,0 +1,12 @@
+mkdir ratelclub/ratelclub.narod.ru
+cd ratelclub/ratelclub.narod.ru
+git init
+unzip ../ratelclub/ratelclub.zip
+git add *
+git commit -am "Initial commit."
+git remote add origin https://github.com/ratelclub/ratelclub.narod.ru.git
+git push -u origin master
+git branch gh-pages
+git checkout gh-pages
+git rebase master
+git push origin gh-pages
