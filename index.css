@@ -1,0 +1,93 @@
+
+/* ::::: index.css ::::: */
+
+   body { margin: 0pt; padding: 0pt; font-family: helvetica,verdana,arial,sans-serif; color: black; background-colorbackground: none;	: white; background-image: url('banner_repeat.png'); background-repeat: repeat-x; }
+   html { background-color: #fff6d6;
+   }
+
+      #layout { margin-left: auto; margin-right: auto; width: 1000px; background-image: url('banner.png'); background-repeat: no-repeat; padding-top: 5px; }
+      #logo-hitbox { width: 625px; height: 175px; display: block; }
+   #menu { width: 290px; margin-right: 35px; float: right; margin-top: -175px; }
+   #menu ul li { font-size: 16px; color: white; }
+   #contents { padding: 50px 10px 10px; clear: right; margin-left: 40px; margin-right: 40px; margin-bottom: 10px; }
+   #footer { padding: 10px; background-color: rgb(204, 204, 204); color: rgb(0, 0, 0); font-size: 10px; clear: both; }
+
+   h1 { font-size: 1.5em; }
+   h2 { color: rgb(153, 00, 00); }
+   h3 { color: #d80000;); border-bottom-style: dashed; border-bottom-width: 1px; border-color: #cc0000; }
+   
+   #news { margin: 0px 0px;
+    padding: 0px 0px;
+    visibility: visible;
+    width: 100%;
+    min-height: 60px;
+    display: block;
+    }
+    #img { margin: 0px;
+    padding: 8px;
+    visibility: visible;
+    float: left;
+    display: block;
+    }
+   code { padding: 3px; font-family: "Courier New",Courier,mono; font-weight: bold; color: white; background-color: black; }
+
+  a { text-decoration: none;
+    background-color: transparent;
+    color: #cc0000;
+    }
+
+  a:visited { background-color: transparent;
+    color: #cc4949;
+    }
+
+  a:hover { text-decoration: underline;
+    color: #990000;
+    }
+
+  a.ahead { background-color: transparent;
+    text-decoration: none;
+    font-weight: inherit;
+    color: #ffffcc;
+    }
+
+  a.ahead:hover { text-decoration: underline;
+    font-weight: inherit;
+    color: #ffffff;
+    }
+   a img {  }
+
+   #menu li a { color: white; text-decoration: none; font-weight: bold; }#menu li a:hover { color: black; text-decoration: underline; }
+   #blogs { border: 1px dotted black; margin: 25px; padding: 10px; overflow: auto; float: right; width: 500px; background-color: rgb(255, 254, 239); }
+   #blogs ul li { margin-left: -20px; font-size: 80%; }
+   #footer { padding: 2px;
+    height: 24px;
+    text-align: center;
+    float: none;
+    position: relative;
+    margin-bottom: 2px;
+    background-color: #ff7912;
+    margin-top: 2px;
+    display: block;
+    clear: both;
+    }
+
+   ol { margin: 1em 0pt 1.5em; padding: 0pt; }
+   ol li { margin: 1.25ex 0pt 0pt 2em; padding: 0pt; line-height: 1.5em; }
+   ul { list-style-type: square; margin-left: 10px; }
+
+   .accordion_toggle { border-bottom: 1px solid rgb(205, 233, 159); margin: 0pt; padding: 0pt 10px; background: rgb(169, 208, 106) url('accordion_toggle.jpg') no-repeat scroll right top; display: block; height: 30px; width: auto; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; line-height: 30px; font-weight: normal; text-decoration: none; outline-color: -moz-use-text-color; outline-style: none; outline-width: medium; font-size: 16px; color: rgb(0, 0, 0); cursor: pointer; }
+   .accordion_toggle_active { border-bottom: 1px solid rgb(246, 130, 99); background: rgb(224, 84, 47) url('accordion_toggle_active.jpg') no-repeat scroll right top; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; color: rgb(255, 255, 255); }
+   .accordion_content { overflow: hidden; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68); padding-bottom: 50px; padding-left: 50px; padding-right: 50px; }
+
+   .vertical_accordion_toggle { border-bottom: 1px solid rgb(205, 233, 159); margin: 0pt; padding: 0pt 10px; background: rgb(169, 208, 106) url('accordion_toggle.jpg') no-repeat scroll right top; display: block; height: 30px; width: 600px; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; line-height: 30px; font-weight: normal; text-decoration: none; outline-color: -moz-use-text-color; outline-style: none; outline-width: medium; font-size: 12px; color: rgb(0, 0, 0); cursor: pointer; }
+   .vertical_accordion_toggle_active { border-bottom: 1px solid rgb(246, 130, 99); background: rgb(224, 84, 47) url('accordion_toggle_active.jpg') no-repeat scroll right top; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; color: rgb(255, 255, 255); }
+   .vertical_accordion_content { overflow: hidden; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68); }
+   .vertical_accordion_content h2 { margin: 15px 0pt 5px 10px; color: rgb(0, 153, 255); }
+   .vertical_accordion_content p { padding: 5px 10px 15px; line-height: 150%; }
+
+   .horizontal_accordion_toggle { border-right: 1px solid rgb(205, 233, 159); margin: 0pt; background: rgb(169, 208, 106) url('h_accordion_toggle.jpg') no-repeat scroll left top; float: left; display: block; height: 100px; width: 30px; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; color: rgb(255, 255, 255); text-decoration: none; outline-color: -moz-use-text-color; outline-style: none; outline-width: medium; cursor: pointer; }
+   .horizontal_accordion_toggle_active { border-right: 1px solid rgb(246, 130, 99); background: rgb(224, 84, 47) url('h_accordion_toggle_active.jpg') no-repeat scroll left top; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; }
+   .horizontal_accordion_content { overflow: hidden; height: 100px; float: left; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68); }
+   .horizontal_accordion_content p { padding: 5px 10px 15px; width: 450px; line-height: 150%; }
+   #horizontal_container { margin: 20px auto; width: 680px; height: 100px; }
+   #vertical_nested_container { margin: 20px auto; width: 620px; }
